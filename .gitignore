@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments & secrets
+.env
+.venv/
+venv/
+.streamlit/secrets.toml
+
+# Runtime caches & downloaded extras (bundled data/sample/ is tracked)
+data/cache/
+data/downloaded/
+*.log
+.DS_Store
+Thumbs.db
